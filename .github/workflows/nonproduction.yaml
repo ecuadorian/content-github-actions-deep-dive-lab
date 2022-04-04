@@ -1,0 +1,6 @@
+name: Deploy feature to nonproduction bucket
+
+on: 
+  push:
+    branches:
+      - feature*
